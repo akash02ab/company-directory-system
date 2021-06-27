@@ -1,0 +1,40 @@
+.create-new-company {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	border: 1px solid coral;
+}
+
+.create-new-company h1 {
+	background: coral;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.create-new-company label {
+	text-indent: 1.6rem;
+}
+
+.create-new-company input {
+	width: 80%;
+	padding: 0.5rem;
+	align-self: center;
+	outline-color: coral;
+}
+
+.create-new-company button {
+	width: 86%;
+	align-self: center;
+	margin-top: 1rem;
+	padding: 0.5rem;
+	border: none;
+	font-size: 1em;
+	background: coral;
+	cursor: pointer;
+}
+
+.create-new-company p {
+	text-align: center;
+	color: crimson;
+}

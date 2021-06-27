@@ -1,0 +1,60 @@
+.details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+	padding: 2rem;
+}
+
+.profile-overview,
+.employees {
+	width: 80%;
+	border: 1px solid lightblue;
+}
+
+.profile-overview h1,
+.employees h1 {
+	width: 98%;
+	background: lightblue;
+	padding: 0.5rem;
+	text-indent: 0.5rem;
+}
+
+.profile-overview h2 {
+	font-size: 1em;
+	text-indent: 1rem;
+	margin-top: 0.5rem;
+}
+
+.profile-overview p {
+	text-indent: 1rem;
+}
+
+.employees {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.employee {
+	width: 60%;
+	border: 1px solid palegreen;
+	margin: 1.5rem;
+}
+
+.employee h2 {
+	text-indent: 1rem;
+	padding: 0.5rem;
+	background: palegreen;
+}
+
+.employee h3 {
+	text-indent: 1.5rem;
+	margin-top: 0.5rem;
+}
+
+.employee p {
+	text-indent: 1.5rem;
+	margin-bottom: 0.5rem;
+}

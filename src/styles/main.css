@@ -1,0 +1,19 @@
+.container {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.view-side,
+.input-side {
+	flex: 2;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem;
+}
+
+.input-side {
+	flex: 1;
+	gap: 2rem;
+}
